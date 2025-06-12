@@ -4,5 +4,5 @@ CREATE TABLE worker (
     last_name      VARCHAR2(50) NOT NULL,
     department     VARCHAR2(50),
     salary         NUMBER(10,2),
-    hire_date      DATE DEFAULT SYSDATE
+    join_date      DATE DEFAULT SYSDATE
 );
